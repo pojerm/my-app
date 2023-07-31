@@ -1,10 +1,11 @@
 import React from 'react'
+import './form.css'
 
 export const Form = () => {
   return (
-    <div>
+    <div className='form-wrapper'>
         <form action="">
-          <label>First name</label>
+          <label>Email address</label>
           <input type="text" placeholder='email@company.com'/>
         </form>
     </div>

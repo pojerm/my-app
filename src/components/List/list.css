@@ -1,0 +1,26 @@
+.list {
+    /* list-style-image: url(../../assets/icon-list.svg); */
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+    /* ponisti default margin i padding  */
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .list-item {
+    /* centrira ikonice sa textom */
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+
+  .list-icon {
+    background-image: url(../../assets/icon-list.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+  }

@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* colors and typography varaibales */
+:root {
+  --clr-primary-400: hsl(4, 100%, 67%);
+  --clr-primary-500: hsl(234, 29%, 20%);
+  --clr-primary-600: hsl(235, 18%, 26%);
+  --clr-primary-700: hsl(231, 7%, 60%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  --default-border-radius: 10px;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -7,7 +24,4 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
