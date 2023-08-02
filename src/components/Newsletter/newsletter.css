@@ -1,0 +1,9 @@
+.container {
+    background-color: var(--clr-white);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5rem;
+    padding: 3rem;
+    border-radius: var(--default-border-radius);
+}

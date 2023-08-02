@@ -7,6 +7,7 @@
   --clr-primary-600: hsl(235, 18%, 26%);
   --clr-primary-700: hsl(231, 7%, 60%);
   --clr-white: hsl(0, 0%, 100%);
+  --clr-body: hsl(234, 29%, 20%);
 
   --default-border-radius: 10px;
 }
@@ -19,6 +20,7 @@
 
 body {
   margin: 0;
+  background-color: var(--clr-body);
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

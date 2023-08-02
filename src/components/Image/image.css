@@ -1,4 +1,13 @@
-.header-image {
-    min-width: 100vw;
-    height: auto;
+.picture-wrapper {
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+.mobile-image {
+    /* min-width: 50vw; */
+    /* height: 100vw; */
+}
+  
+.desktop-image {
+    /* margin: 20px; */
 }
