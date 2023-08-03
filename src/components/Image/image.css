@@ -1,11 +1,10 @@
 .picture-wrapper {
-    /* height: 100%; */
-    /* width: 100%; */
+    /* width: 100vw; */
 }
 
 .mobile-image {
-    /* min-width: 50vw; */
-    /* height: 100vw; */
+    width: 100vw;
+    height: ;
 }
   
 .desktop-image {
