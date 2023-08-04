@@ -17,4 +17,8 @@
         border-radius: var(--default-border-radius);
     }
   }
+
+  .card-body {
+    padding: 1rem;
+  }
   
