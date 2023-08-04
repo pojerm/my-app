@@ -9,7 +9,7 @@ import { Image } from "../Image/Image";
 
 export const Newsletter = () => {
   return (
-    <div className="container">
+    <div className="newsletter-wrapper">
       <div className="card-image">
         <Image />
       </div>

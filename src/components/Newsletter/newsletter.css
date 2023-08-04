@@ -1,9 +1,20 @@
-.container {
+.newsletter-wrapper {
     background-color: var(--clr-white);
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-items: center;
-    gap: 5rem;
-    padding: 3rem;
-    border-radius: var(--default-border-radius);
 }
+
+@media screen and (min-width: 54rem) {
+    .newsletter-wrapper {
+        /* background-color: var(--clr-white); */
+        /* display: flex; */
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 5rem;
+        padding: 3rem;
+        max-width: 1140px;
+        border-radius: var(--default-border-radius);
+    }
+  }
+  
