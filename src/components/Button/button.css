@@ -12,4 +12,10 @@
     color: var(--clr-white);
     padding: 18px;
     margin-bottom: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--clr-primary-400);
+    
 }
